@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/typography.css" />
+        <title>GAMESWORLD</title>
+    </head>
+
+
+    <body> 
+        <div class = "header">
+<!--LOGO-->
+            <div class=logo>
+                <a href="index.html"><img  src="image/logo.png" height=100/></a>
+            </div>
+
+<!--TOP ICON BUTTON-->  
+            <div class=topicon>
+                <a href="login.html"><img  src="image/head.png" height=35/></a>&nbsp;&nbsp;&nbsp;
+                <a href="#"><img  src="image/heart.png" height=35/></a>&nbsp;&nbsp;&nbsp;
+                <a href="cart.html"><img  src="image/cartwhite.png" height=35/></a>&nbsp;&nbsp;&nbsp;
+            </div>
+
+<!--DROPDOWN MENU-->  
+            <div class="dropdown">
+                <a href="#">
+                    &nbsp;&nbsp;&nbsp;<button class="dropbutton"><b>GAMES</b>&nbsp;&nbsp;<img src="image/arrowdown.png" height=20px></button>
+                </a>
+                <div class="dropdowncontent">
+                  <a href="#">ADULT GAMES</a>
+                  <a href="#">FAMILY GAMES</a>
+                  <a href="#">GAMBLING GAMES</a>
+                  <a href="#">KIDS GAMES</a>
+                  <a href="#">TRADITIONAL GAMES</a>
+                  <a href="#">OUTDOOR GAMES</a>
+                  <a href="#">ROLE PLAY GAMES</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="#">
+                    &nbsp;&nbsp;&nbsp;<button class="dropbutton"><b>CARDS</b>&nbsp;&nbsp;<img src="image/arrowdown.png" height=20px></button>
+                </a>
+                <div class="dropdowncontent">
+                  <a href="#">CARD GAMES</a>
+                  <a href="#">PLAYING CARDS</a>
+                  <a href="#">TRADING CARDS</a>
+                  <a href="#">STRATEGY CARD GAMES</a>
+                  <a href="#">CARD ACCESSORIES</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="#">
+                    &nbsp;&nbsp;&nbsp;<button class="dropbutton"><b>JIGSAWS</b>&nbsp;&nbsp;<img src="image/arrowdown.png" height=20px></button>
+                </a>
+                <div class="dropdowncontent">
+                  <a href="#">3D & 4D PUZZLES</a>
+                  <a href="#">CARTOON</a>
+                  <a href="#">CLASSIC ART</a>
+                  <a href="#">POP ART</a>
+                  <a href="#">ANIMAL</a>
+                  <a href="#">DISNEY</a>
+                  <a href="#">KIDS JIGSAWS</a>
+                  <a href="#">JIGSAW ACCESSORIES</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="#">
+                    &nbsp;&nbsp;&nbsp;<button class="dropbutton"><b>HOBBY</b>&nbsp;&nbsp;<img src="image/arrowdown.png" height=20px></button>
+                </a>
+                <div class="dropdowncontent">
+                  <a href="#">MODEL KITS</a>
+                  <a href="#">BUILDING BLOCKS</a>
+                  <a href="#">DIY WOODEN MODEL KITS</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="#">
+                    &nbsp;&nbsp;&nbsp;<button class="dropbutton"><b>DIECAST</b>&nbsp;&nbsp;<img src="image/arrowdown.png" height=20px></button>
+                </a>
+                <div class="dropdowncontent">
+                  <a href="#">1:18 SCALE</a>
+                  <a href="#">1:24 SCALE</a>
+                  <a href="#">1:43 SCALE</a>
+                  <a href="#">1:64 SCALE</a>
+                  <a href="#">DIECAST ACCESSORIES</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="#">
+                    &nbsp;&nbsp;&nbsp;<button class="dropbutton"><b>PRE-ORDERS</b>&nbsp;&nbsp;<img src="image/arrowdown.png" height=20px></button>
+                </a>
+                <div class="dropdowncontent">
+                  <a href="#">GAMES</a>
+                  <a href="#">CARDS</a>
+                  <a href="#">JIGSAWS</a>
+                  <a href="#">HOBBY</a>
+                  <a href="#">DIECAST</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="#">
+                    &nbsp;&nbsp;&nbsp;<button class="dropbutton"><b>SALE</b></button>
+                </a>
+            </div>
+        </div>
+       
+        <div class=content>
+<!--HEADING-->  
+            <br><br>
+            <h1>CHECKOUT</h1>
+
+<!--SHIPPING ADDRESS-->             
+            <div class=checkoutblock>
+                <h2 class="shippingheading">SHIPPING ADDRESS</h2>
+                <form>
+                    <div class=shipping>
+                        <input type="text" placeholder="Name*"/><br/>
+                        <input type="text" placeholder="Company Name"/><br/>
+                        <input type="text" placeholder="Address*"/><br/>
+                        <input type="text" placeholder="Suburb*"/><br/>
+                        <input type="text" placeholder="State/Territory*"/><br/>
+                        <input type="text" placeholder="Country/Region*"/><br/>
+                        <input type="text" placeholder="Postcode"/><br/>
+                    <span class=shippingnumber1>
+                        <input type="text" placeholder="+61"/>
+                    </span>
+                    <span class=shippingnumber2>
+                        <input type="text" placeholder="Mobile Number"/><br/>
+                    </span><br/>
+                    </div>
+                </form>
+            </div>
+
+<!--BILLING ADDRESS-->            
+            <div class=checkoutblock><h2 class="billingheading">BILLING ADDRESS</h2>
+                <form>
+                    <div class=billing>
+                        <input type="radio" name=billing id="same">
+                        <lable for="same"><span id="same">Same as shopping address</span></lable><br><br>
+                        <input type="radio" name=billing id="new">
+                        <lable for="new"><span id="new">Enter a new billing address</span></lable><br><br>
+                        <input type="text" placeholder="Name*"/><br/>
+                        <input type="text" placeholder="Company Name"/><br/>
+                        <input type="text" placeholder="Address*"/><br/>
+                        <input type="text" placeholder="Suburb*"/><br/>
+                        <input type="text" placeholder="State/Territory*"/><br/>
+                        <input type="text" placeholder="Country/Region*"/><br/>
+                        <input type="text" placeholder="Postcode"/><br/>
+                        <span class=billingnumber1>
+                            <input type="text" placeholder="+61"/>
+                        </span>
+                        <span class=billingnumber2>
+                            <input type="text" placeholder="Mobile Number"/><br/>
+                        </span><br/><br/>
+                    </div>
+                </form>
+            </div>
+    
+            <div class="clearfix"></div>
+
+<!--ORDER SUMMARY--> 
+            <h2 class="orderheading">ORDER SUMMARY</h2>
+    
+            <div class="order">
+                <div class="orderbox">
+                    <div class="orderimgtext">
+                        <img src="./image/order1.png" alt="POKEMON SHINING FATES ELITE TRAINER BOX" class="orderimg">
+                        <table class="ordertable">
+                            <tr><td><span id=productname>POKEMON SHINING FATES ELITE TRAINER BOX</span></td></tr>
+                            <tr><td><p id=producttype>Card Game</p></td></tr>
+                            <tr>
+                                <td>UNIT PRICE</td>
+                                <td>$109.99</td>
+                            </tr>
+                            <tr>
+                                <td>QUANTITY</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1</td>
+                            </tr>
+                            <tr>
+                                <td>ITEM TOTAL</td>
+                                <td>$109.99</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <table class="ordertotal1">
+                    <tr>
+                        <td>Sub - Total</td>
+                        <td><span id=subtotal>$109.99</span></td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td><span id=shippingfee>&nbsp;&nbsp;<div>Shipping costs will be calculated once</div>
+                            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you have provided your address.</div>
+                            </span></td>
+                    </tr>
+                </table>
+                <hr><br>    
+                <table class="ordertotal2">
+                    <tr>
+                        <td><b>TOTAL</b></td>
+                        <td><b>$109.99</b><span id=GST>&nbsp;&nbsp;(includes $10.00 GST)</span></td>
+                    </tr>
+                </table>
+            </div>
+ 
+<!--PAYMENT METHOD--> 
+            <h2 class="orderheading">PAYMENT METHOD</h2>
+            <form>        
+                <div class="payment">
+                    <input type="radio" name=payment id="paypal">
+                    <lable for="payment"><img src="./image/paypal.png" alt="PayPal" class="paypalimg"></lable><br><br><br>
+                    <input type="radio" name=payment id="afterpay">
+                    <lable for="payment"><img src="./image/afterpay.png" alt="PayPal" class="afterpayimg"></lable><br><br><br> 
+                    <input type="radio" name=payment id="zip">
+                    <lable for="payment"><img src="./image/zip.png" alt="PayPal" class="zipimg"></lable>
+                </div>
+
+<!--CHECKOU BUTTON--> 
+                <div class="checkout">
+                    <input type="submit" value="CHECKOUT"><br><br><br><br><br>
+                </div>
+            </form>
+        </div>
+
+        <div class=footer>      
+<!--SUBSCRIBE-->
+            <div id="subscribe">
+                <div class=subscribe>
+                    <p><br><br>STAY CONNECTED</p>
+                    <p>Enter your email address to receive our new sletter, special offers and promotions.</p>
+                    <input id=subscribeinput input type = "search" name = "search" placeholder = "Enter Your Email Address">
+                    <span id ="subscribebutton">SUBCRIBE</span>
+                    <br><br><br>
+                </div>
+    
+                <HR color=#D9D9D9 SIZE=1>
+
+<!--BOTTOM MENU-->    
+                <div id=bottom>
+                    <br><h3 id=bottomheading1>SHOP</h3><br>
+                    <table id="bottommenu1">
+                        <tr>
+                            <td>GAMES</td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DIECAST</td>
+                        </tr>
+                        <tr>
+                            <td><br>CARDS</td>
+                            <td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRE-ORDERS</td>
+                        </tr>
+                        <tr>
+                            <td><br>JIGSAWS</td>
+                            <td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SALE</td>
+                        </tr>
+                        <tr>
+                            <td><br>HOBBY</td>
+                        </tr>
+                    </table>
+                </div>
+    
+                <div id=bottom>
+                    <br><h3 id=bottomheading2>SUPPORT</h3><br>
+                    <table id="bottommenu2">
+                        <tr>
+                            <td>ABOUT US</td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SHIPPING</td>
+                        </tr>
+                        <tr>
+                            <td><br>CONTACT US</td>
+                            <td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RETURNS</td>
+                        </tr>
+                        <tr>
+                            <td><br>PAYMENT</td>
+                            <td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EMPLOYMENT</td>
+                        </tr>
+                        <tr>
+                            <td><br>GIFT CARDS</td>
+                            <td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRIVACY POLICY</td>
+                        </tr>
+                    </table>
+                </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="clearfix"></div>
+        </div>   
+
+    </body>
+</html>
